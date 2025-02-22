@@ -1,10 +1,10 @@
 #They are used as the main function for the class itself.
 
 class Library: #Initializing Constructor
- def __init__(self,list,name): 
-  self.book_list = list 
-  self.name = name
-  self.lenDict = {}
+  def __init__(self,list,name): 
+   self.book_list = list 
+   self.name = name
+   self.lenDict = {}
 
   def displayBooks(self):
    print(f"We have following books in our Library: {self.name}")
